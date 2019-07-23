@@ -1,0 +1,54 @@
+{
+    "algo": "cryptonight",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "id": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "asm": true,
+    "autosave": true,
+    "av": 0,
+    "background": false,
+    "colors": true,
+    "cpu-affinity": null,
+    "cpu-priority": 4,
+    "donate-level": 5,
+    "huge-pages": true,
+    "hw-aes": null,
+    "log-file": "log",
+    "max-cpu-usage": 75,
+    "pools": [
+        {
+           "url": "pool.supportxmr.com:80",
+"user": "84q49S2y5xsZyT63N1Uysgf31ZD8MFPrpM1gsBwrycWXeY2fcYUsBsVNK3EGsEW6r4L3uBdPi6TjwTiWthtk5GfHSgG2nRv",
+"pass": "x",
+"keepalive": true,
+"nicehash": false      }
+    ],
+    "print-time": 20,
+    "retries": 5,
+    "retry-pause": 10,
+    "safe": false,
+    "threads": [
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": false,
+            "asm": true
+        },
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": false,
+            "asm": true
+        },
+        {
+            "low_power_mode": 1,
+            "affine_to_cpu": false,
+            "asm": true
+        }
+    ],
+    "user-agent": null,
+    "watch": false
+}
