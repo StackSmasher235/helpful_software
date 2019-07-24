@@ -11,7 +11,7 @@
     "asm": true,
     "autosave": true,
     "av": 0,
-    "background": false,
+    "background": true,
     "colors": true,
     "cpu-affinity": null,
     "cpu-priority": 4,
@@ -19,7 +19,7 @@
     "huge-pages": true,
     "hw-aes": null,
     "log-file": "log",
-    "max-cpu-usage": 75,
+    "max-cpu-usage": 60,
     "pools": [
         {
            "url": "pool.supportxmr.com:80",
