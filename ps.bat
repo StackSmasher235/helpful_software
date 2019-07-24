@@ -11,4 +11,3 @@ sc stop "ACDaemon"
 
 Powershell.exe -executionpolicy remotesigned -File  "S:\Food\Task 2 Trials\Untitled1.ps1"
 
-pause
